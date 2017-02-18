@@ -1,0 +1,10 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\bin\Debug\AccountingApplication.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\bin\Debug\AccountingApplication.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\bin\Debug\AccountingApplication.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\obj\Debug\AccountingApplication.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\obj\Debug\AccountingApplication.Form1.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\obj\Debug\AccountingApplication.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\obj\Debug\AccountingApplication.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\obj\Debug\AccountingApplication.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\obj\Debug\AccountingApplication.pdb
+C:\Users\lenovo\documents\visual studio 2015\Projects\AccountingApplication\AccountingApplication\obj\Debug\AccountingApplication.IncomeStatementForm.resources
