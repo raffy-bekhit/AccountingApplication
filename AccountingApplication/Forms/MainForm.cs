@@ -67,6 +67,8 @@ namespace AccountingApplication
 
             txtNewAccName.Text = null;
             addAccountToTrialBalance(newAccount);
+
+            
  
         }
 
@@ -225,7 +227,7 @@ namespace AccountingApplication
         {
             //check if entry obeys conditions
 
-            decimal totalEntry = -9999;
+            decimal totalEntry = decimal.MinValue ;
             
             if (checkNumberOfEntries() && isAccSelected()) {
                 totalEntry = 0;
