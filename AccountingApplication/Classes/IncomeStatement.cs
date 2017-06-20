@@ -10,10 +10,11 @@ namespace AccountingApplication.Classes
    static class IncomeStatement
     {
         public static decimal Income { get; set; }
-
+        public static decimal revenues { get; set; } 
+        public static decimal expenses { get; set; }
         public static decimal calculateIncome( )
         {
-            decimal revenues,expenses;
+            
             revenues = Program.categories.ElementAt(4).calculateSum();
             expenses = Program.categories.ElementAt(1).calculateSum();
             Income = revenues - expenses;
@@ -33,14 +34,14 @@ namespace AccountingApplication.Classes
 
             foreach(Account account in Program.categories.ElementAt(4).Accounts)
             {
-                account.ToArray();
-                IncomeStatementEntries.Add(account.ToArray());
+               
+                IncomeStatementEntries.Add(account.ToArray(3));
                 
             }
             EntryArray = new ArrayList();
             EntryArray.Add("Total Revenues");
             EntryArray.Add(null);
-            EntryArray.Add(Program.categories.ElementAt(4).Sum);
+            EntryArray.Add(revenues);
             IncomeStatementEntries.Add(EntryArray);
 
             EntryArray = new ArrayList();
@@ -59,7 +60,7 @@ namespace AccountingApplication.Classes
             EntryArray = new ArrayList();
             EntryArray.Add("Total Expenses");
             EntryArray.Add(null);
-            EntryArray.Add((Program.categories.ElementAt(4).Sum)*-1);
+            EntryArray.Add(expenses);
             IncomeStatementEntries.Add(EntryArray);
 
             EntryArray = new ArrayList();

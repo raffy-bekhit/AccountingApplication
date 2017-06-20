@@ -51,11 +51,14 @@ namespace AccountingApplication
 
         }
 
-        public ArrayList ToArray()
+        public ArrayList ToArray(int i)
         {
+            //i=3 for IS , 2 for OE
             ArrayList array = new ArrayList();
+            
             array.Add(Name);
             array.Add(Sum);
+            if(i==3)
             array.Add(null);
             return array;
         }
