@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,15 @@ namespace AccountingApplication.Forms
         public OwnersEquityForm()
         {
             InitializeComponent();
+        }
+
+        private void OwnersEquityForm_Load(object sender, EventArgs e)
+        {
+            
+            foreach (ArrayList array in Classes.OwnersEquity.GetOwnersEquityData())
+            {
+                OEGrid.Rows.Add(array.ToArray());
+            }
         }
     }
 }
